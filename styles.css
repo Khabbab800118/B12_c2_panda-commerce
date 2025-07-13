@@ -108,6 +108,27 @@
     font-style: italic;
 }
 
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+}
 
 /* nav section */
 
@@ -146,4 +167,51 @@ nav ul a {
     text-decoration: none;
     color: #707070;
     font-size: 16px;
+}
+
+/* banner section */
+
+.banner {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 115px;
+    padding: 38px 60px;
+    background-color: #FEEAE9;
+    border-radius: 15px;
+}
+
+.banner-left-title{
+    font-size: 56px;
+    color: #1F1F1F;
+}
+
+.banner-left-description{
+    font-size: 16px;
+    color: 4E4E4E;
+}
+
+.banner-left-price{
+    font-size: 41px;
+    font-weight: bolder;
+    color: #FF136F;
+}
+
+.banner-left-btn a{
+    color: white;
+}
+
+.banner-left-btn{
+    border: none;
+    border-radius: 15px;
+    background-color: #FF136F;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
+.banner-right-img img{
+    height: 378px;
+    width: 402px;
 }
